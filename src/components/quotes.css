@@ -1,0 +1,9 @@
+.quotes-display{
+    padding: 10px 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    
+
+}

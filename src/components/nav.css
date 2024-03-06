@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    background-color: rgb(27, 54, 75);
+    padding: 1.1rem 1rem;
+    align-items: center;
+    color: aliceblue;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.items{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+
+li{
+    transition: all .4s ease;
+    cursor: pointer;
+    list-style: none;
+}
+
+li:hover{
+    color: blue;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(91, 91, 227);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 600;
+    
+}
